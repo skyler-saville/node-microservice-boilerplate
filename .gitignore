@@ -134,3 +134,51 @@ dist
 # other
 npm-debug.log
 .DS_Store
+
+# Editor-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swn
+*.user
+*.userosscache
+*.suo
+*.swp
+*.bak
+*.tmp
+
+# Node.js generated folders
+node_modules/
+__nodecache/
+__node_version/
+__node_yarn_integrity/
+__yarn/
+
+# npm
+npm-debug.log
+npm-debug.log.*
+.pnpm*
+pnp.local
+*.pnp
+*.pnp.js
+
+# Yarn
+yarn-error.log
+yarn.lock
+/.pnp/
+.pnp.local/
+
+# Log files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*

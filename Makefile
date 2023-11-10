@@ -39,7 +39,7 @@ commit:
 
 dynamic-commit:
 	make lint-and-pretty
-	FILE_COUNT=$$(git diff --cached --numstat | wc -l); \
+	FILE_COUNT=$$(git diff --numstat | wc -l); \
 	TIME_SINCE_LAST_COMMIT=$$(git log -1 --format=%cd --date=relative); \
 	DYNAMIC_MESSAGE="Made changes to $$FILE_COUNT files. Last commit was $$TIME_SINCE_LAST_COMMIT ago."; \
 	git add .; \
